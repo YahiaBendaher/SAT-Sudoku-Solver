@@ -1,6 +1,6 @@
 # 🧩 Sudoku Solver - SAT Powered
 
-![Sudoku Solver Preview](./assets/screenshot.png) <!-- Remplace ce chemin par ton image -->
+![Sudoku Solver Preview](./assets/image_sudoku.png) <!-- Remplace ce chemin par ton image -->
 
 ## 📝 Description
 
@@ -22,21 +22,28 @@ Il peut également générer des grilles jouables selon différents niveaux de d
 
 ## 🛠️ Technologies utilisées
 
-- Python 3
+- [Python](https://www.python.org/)
 - [pycosat](https://pypi.org/project/pycosat/)
-- numpy
-- tkinter
-- itertools
+- [numpy](https://numpy.org/doc/)
+- [tkinter](https://docs.python.org/fr/3.13/library/tk.html)
+- [itertools](https://docs.python.org/3/library/itertools.html)
 
 ---
 
 
----
-
-## 🧑‍💻 Comment utiliser ce projet
+## 🧑‍💻Installation
 
 ### 1. Cloner le repo
 ```bash
 git clone https://github.com/ton-user/nom-du-repo.git
 cd nom-du-repo
+```
+###2. Installer les dépendances
+```bash
+pip install pycosat numpy
+```
+3. Lancer le programme
+```bash
+python sudoku_solver.py
+```
 
